@@ -1,12 +1,12 @@
 Summary:	WCSLIB - an implementation of the FITS WCS proposal
 Summary(pl):	WCSLIB - implementacja propozycji standardu FITS WCS
 Name:		wcssubs
-Version:	3.3.4
+Version:	3.4.0
 Release:	1
 License:	LGPL
-Group:		Development/Libraries
+Group:		Libraries
 Source0:	ftp://cfa-ftp.harvard.edu/pub/gsc/SAOimage/%{name}-%{version}.tar.gz
-# Source0-md5:	8ec31f7e8868f631a86e6221894aa92a
+# Source0-md5:	4a40caea6c222cd91fceeca8b61b4730
 URL:		http://tdc-www.harvard.edu/software/wcstools/libwcs.wcs.html
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

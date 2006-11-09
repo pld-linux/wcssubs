@@ -25,7 +25,7 @@ world coordinate systems) w obrazach FITS lub IRAF (.imh).
 Summary:	Header files for WCS library
 Summary(pl):	Pliki nag³ówkowe biblioteki WCS
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for WCS library.
@@ -37,7 +37,7 @@ Pliki nag³ówkowe biblioteki WCS.
 Summary:	Static WCS library
 Summary(pl):	Statyczna biblioteka WCS
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static WCS library.

@@ -1,5 +1,5 @@
 Summary:	WCSLIB - an implementation of the FITS WCS proposal
-Summary(pl.UTF-8):   WCSLIB - implementacja propozycji standardu FITS WCS
+Summary(pl.UTF-8):	WCSLIB - implementacja propozycji standardu FITS WCS
 Name:		wcssubs
 Version:	3.4.0
 Release:	1
@@ -23,7 +23,7 @@ world coordinate systems) w obrazach FITS lub IRAF (.imh).
 
 %package devel
 Summary:	Header files for WCS library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki WCS
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki WCS
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -35,7 +35,7 @@ Pliki nagłówkowe biblioteki WCS.
 
 %package static
 Summary:	Static WCS library
-Summary(pl.UTF-8):   Statyczna biblioteka WCS
+Summary(pl.UTF-8):	Statyczna biblioteka WCS
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 

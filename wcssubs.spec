@@ -1,5 +1,5 @@
 Summary:	WCSLIB - an implementation of the FITS WCS proposal
-Summary(pl):	WCSLIB - implementacja propozycji standardu FITS WCS
+Summary(pl.UTF-8):   WCSLIB - implementacja propozycji standardu FITS WCS
 Name:		wcssubs
 Version:	3.4.0
 Release:	1
@@ -16,33 +16,33 @@ These subroutines, developed as part of the WCSTools software package,
 constitute a self-contained package for accessing the world coordinate
 systems of FITS or IRAF(.imh) images.
 
-%description -l pl
-Te funkcje, stworzone jako czê¶æ projektu WCSTools, tworz± samodzielny
-pakiet s³u¿±cy do dostêpu do globalnych uk³adów wspó³rzêdnych (WCS -
+%description -l pl.UTF-8
+Te funkcje, stworzone jako czÄ™Å›Ä‡ projektu WCSTools, tworzÄ… samodzielny
+pakiet sÅ‚uÅ¼Ä…cy do dostÄ™pu do globalnych ukÅ‚adÃ³w wspÃ³Å‚rzÄ™dnych (WCS -
 world coordinate systems) w obrazach FITS lub IRAF (.imh).
 
 %package devel
 Summary:	Header files for WCS library
-Summary(pl):	Pliki nag³ówkowe biblioteki WCS
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki WCS
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for WCS library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki WCS.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki WCS.
 
 %package static
 Summary:	Static WCS library
-Summary(pl):	Statyczna biblioteka WCS
+Summary(pl.UTF-8):   Statyczna biblioteka WCS
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static WCS library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka WCS.
 
 %prep
